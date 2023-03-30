@@ -1,2 +1,3 @@
 # hello-world
-test
+t
+this is a copy of main stream.
