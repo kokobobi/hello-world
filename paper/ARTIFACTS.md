@@ -1,12 +1,14 @@
 # Artifact Map
 
-## Uploaded / Packaged Files
+## GitHub Uploaded Files
+
+This repository is a selected publication bundle, not a complete executable mirror of the local workspace.
 
 ```text
 README.md
 paper/A2T_Null_Test_Report.md
 paper/ARTIFACTS.md
-src/a2t_simulate_pipeline.py
+src/PIPELINE_CHECKSUM.md
 docs/A_VERSION_A2T_FULL_MILESTONE_AUDIT.md
 docs/A_VERSION_INDEX.md
 docs/A_VERSION_A2T_SIMULATION_SCHEMA.md
@@ -28,6 +30,16 @@ data/FULL_DATA_CHECKSUMS.txt
 generated/full_milestone_20260625_conservative_null_sigma
 ```
 
+## Full Local Artifacts
+
+The local publication bundle also contains fuller working notes and the milestone pipeline source:
+
+```text
+publication/a2t-null-test-report/
+scripts/a2t_simulate_pipeline.py
+generated/full_milestone_20260625_conservative_null_sigma/a2t_example_events.csv
+```
+
 ## Checksums
 
 ```text
@@ -40,10 +52,6 @@ c54bd7008a6a1b361f40786430d23e9b576057ce336dd89a84a667a30892d72c  run_manifest.j
 
 ## Notes
 
-The full event CSV is approximately 5.7 MB. It is retained locally and represented in this package by a sample CSV plus checksum. If the repository is cloned/pushed with normal `git`, the full CSV can be added under:
+The full event CSV is approximately 5.7 MB. It is retained locally and represented in this GitHub package by a sample CSV plus checksum.
 
-```text
-data/a2t_example_events.csv
-```
-
-The GitHub connector upload path used by Codex is optimized for UTF-8 text files and small-to-medium artifacts, so the full CSV may require `git` or GitHub CLI authentication for direct upload.
+The GitHub connector upload path used by Codex is optimized for UTF-8 text files and small-to-medium artifacts. The full CSV and full script can be added later through normal `git` or GitHub CLI authentication if an executable mirror is required.
