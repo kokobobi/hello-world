@@ -1,0 +1,17 @@
+Authoritative milestone directory:
+generated/full_milestone_20260625_conservative_null_sigma
+
+SHA256 checksums:
+
+9025db95a1c16e1bf13239d2a32e7383defdd01f7a4bb19f3ac7418326c49043  generated/full_milestone_20260625_conservative_null_sigma/a2t_simulation_summary.json
+d7b2f94de7caace60e2025ab89716d3006941607fdc4a0144570d963f4e4ff7f  generated/full_milestone_20260625_conservative_null_sigma/a2t_example_events.csv
+c54bd7008a6a1b361f40786430d23e9b576057ce336dd89a84a667a30892d72c  generated/full_milestone_20260625_conservative_null_sigma/run_manifest.json
+69d5a7ed172a466f746a11ec0f258204d40b8ceac550aec691651a85cf5c61be  generated/full_milestone_20260625_conservative_null_sigma/calibration_manifest.json
+4320062ad70774f45bd742bac788ec5efaa504b158699f5295c2f6598712879a  scripts/a2t_simulate_pipeline.py
+
+Local full data note:
+
+The full event CSV is approximately 5.7 MB and remains available locally at:
+generated/full_milestone_20260625_conservative_null_sigma/a2t_example_events.csv
+
+The GitHub connector upload route is optimized for UTF-8 text files and small-to-medium artifacts. This package includes a sample CSV plus checksums. Use normal git or GitHub CLI authentication to upload the full CSV if exact raw-event archival is required.
