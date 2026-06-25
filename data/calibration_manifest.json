@@ -1,0 +1,220 @@
+{
+  "calibration_model_version": "calibration_completeness_v1",
+  "calibration_profile": "simulated-complete",
+  "calibration_status": "pass",
+  "calibration_warning": null,
+  "claim_policy": "candidate_or_upper_bound_claim_allowed_if_run_policy_also_passes",
+  "covariance_components_missing": [],
+  "covariance_components_present": [
+    "Cov_Sagnac",
+    "Cov_cross",
+    "Cov_env",
+    "Cov_lambda",
+    "Cov_lambda_pol",
+    "Cov_memory",
+    "Cov_model",
+    "Cov_pol",
+    "Cov_readout",
+    "Cov_stat"
+  ],
+  "groups": {
+    "blind_analysis": {
+      "covariance_components": [
+        "Cov_model"
+      ],
+      "gates": [
+        "candidate_claim",
+        "blind_analysis"
+      ],
+      "missing_fields": [],
+      "required_fields": [
+        "blind_offset_id",
+        "analysis_freeze_hash",
+        "exclusion_rule_version"
+      ],
+      "status": "pass"
+    },
+    "lambda_pol": {
+      "covariance_components": [
+        "Cov_lambda_pol",
+        "Cov_cross"
+      ],
+      "gates": [
+        "lambda_pol",
+        "pol_wavelength_null"
+      ],
+      "missing_fields": [],
+      "required_fields": [
+        "waveplate_retardance_lambda",
+        "qwp_retardance_lambda",
+        "mirror_bs_sp_phase_lambda_aoi",
+        "polarimeter_basis_lambda",
+        "pmd_lambda"
+      ],
+      "status": "pass"
+    },
+    "laser_readout": {
+      "covariance_components": [
+        "Cov_stat",
+        "Cov_readout"
+      ],
+      "gates": [
+        "sigma_H",
+        "readout",
+        "laser_opd"
+      ],
+      "missing_fields": [],
+      "required_fields": [
+        "phase_readout_gain",
+        "fringe_visibility",
+        "detector_saturation_flag",
+        "phase_uncertainty"
+      ],
+      "status": "pass"
+    },
+    "memory": {
+      "covariance_components": [
+        "Cov_memory"
+      ],
+      "gates": [
+        "memory",
+        "dummy_switch",
+        "sequence"
+      ],
+      "missing_fields": [],
+      "required_fields": [
+        "previous_geometry_state",
+        "dummy_switch_flag",
+        "wait_time_after_switch",
+        "actuator_readback"
+      ],
+      "status": "pass"
+    },
+    "polarization": {
+      "covariance_components": [
+        "Cov_pol"
+      ],
+      "gates": [
+        "polarization",
+        "pol_null",
+        "lin_circ_null"
+      ],
+      "missing_fields": [],
+      "required_fields": [
+        "input_polarimeter_readout",
+        "output_polarimeter_readout",
+        "extinction_ratio"
+      ],
+      "status": "pass"
+    },
+    "sagnac": {
+      "covariance_components": [
+        "Cov_Sagnac"
+      ],
+      "gates": [
+        "sagnac",
+        "sagnac_injection",
+        "earth_rotation"
+      ],
+      "missing_fields": [],
+      "required_fields": [
+        "A_vec",
+        "platform_orientation",
+        "omega_inj_measured",
+        "earth_rotation_model"
+      ],
+      "status": "pass"
+    },
+    "thermal": {
+      "covariance_components": [
+        "Cov_env",
+        "Cov_cross"
+      ],
+      "gates": [
+        "thermal",
+        "delayed_thermal",
+        "thermal_area"
+      ],
+      "missing_fields": [],
+      "required_fields": [
+        "temperature_map",
+        "temperature_gradient",
+        "thermal_lag_kernel",
+        "pressure",
+        "laser_frequency"
+      ],
+      "status": "pass"
+    },
+    "wavelength": {
+      "covariance_components": [
+        "Cov_lambda",
+        "Cov_Sagnac",
+        "Cov_lambda_pol"
+      ],
+      "gates": [
+        "wrong_scaling",
+        "lambda_pol",
+        "sagnac_wavelength"
+      ],
+      "missing_fields": [],
+      "required_fields": [
+        "lambda_center",
+        "lambda_drift",
+        "lambda_uncertainty"
+      ],
+      "status": "pass"
+    }
+  },
+  "included_scenarios": [
+    "null_clean",
+    "hidden_injection",
+    "sagnac_residual",
+    "polarization_residual",
+    "thermal_drift",
+    "thermal_area_coupled",
+    "thermal_gradient_reversal",
+    "thermal_hysteresis",
+    "air_index_drift",
+    "laser_freq_opd_coupled",
+    "alignment_thermal_coupled",
+    "nonlinear_thermal_coupling",
+    "delayed_thermal_response",
+    "random_hysteresis",
+    "temperature_polarization_cross",
+    "polarization_angle_miscalibration",
+    "mirror_bs_sp_phase_drift",
+    "stress_birefringence_hysteresis",
+    "pmd_delayed_response",
+    "area_vector_miscalibration",
+    "wavelength_calibration_error",
+    "platform_orientation_error",
+    "injected_rotation_scale_error",
+    "sagnac_alignment_coupling",
+    "sagnac_thermal_area_drift",
+    "nonreciprocal_path_sagnac_leakage",
+    "known_waveplate_rotation_injection",
+    "known_sp_phase_injection",
+    "known_birefringence_injection",
+    "known_rcp_lcp_split_injection",
+    "known_pmd_injection",
+    "known_pol_temp_cross_injection",
+    "known_sag_area_vector_injection",
+    "known_sag_wavelength_scaling_injection",
+    "known_sag_platform_orientation_injection",
+    "known_sag_rotation_injection",
+    "known_sag_earth_model_injection",
+    "known_sag_alignment_injection",
+    "known_sag_thermal_area_injection",
+    "known_sag_nonreciprocal_injection",
+    "lambda_waveplate_retardance",
+    "lambda_sp_phase_drift",
+    "lambda_birefringence_dispersion",
+    "lambda_qwp_retardance_error",
+    "lambda_polarimeter_basis_error",
+    "lambda_pmd",
+    "platform_orientation_thermal_gradient",
+    "step_like_environment",
+    "mixed_correlated"
+  ],
+  "indeterminate_gates": []
+}
