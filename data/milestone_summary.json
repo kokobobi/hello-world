@@ -1,0 +1,53 @@
+{
+  "project": "A2T hidden topological flux null-test",
+  "status": "external_candidate_simulation_prototype",
+  "authoritative_milestone_dir": "generated/full_milestone_20260625_conservative_null_sigma",
+  "run": {
+    "run_profile": "full",
+    "scenario_source": "run-profile:full",
+    "is_full_run": true,
+    "is_milestone_run": true,
+    "is_smoke_run": false,
+    "warning": null,
+    "calibration_status": "pass",
+    "included_scenarios": 49,
+    "excluded_scenarios": 0,
+    "script_version": "4320062ad707"
+  },
+  "coverage": {
+    "f_coverage_realistic": 1.6696140513695465,
+    "f_null": 1.6696140513695465,
+    "f_null_channel": 1.2616386077938864,
+    "f_null_statistical": 1.6696140513695465,
+    "f_inj": 1.0283813682469716,
+    "f_sim": 1.0,
+    "dominant_null_component": "f_pol_HV_wavelength_null_after_model",
+    "dominant_null_sigma_component": "f_null_block_bootstrap",
+    "dominant_injection_component": "f_thermal_inj",
+    "post_gate_nuisance_leakage_count": 0
+  },
+  "null_sigma": {
+    "f_null_gaussian": 1.0,
+    "f_null_empirical_95": 1.0,
+    "f_null_student_t_proxy": 1.0,
+    "f_null_mixture_core": 1.0,
+    "f_null_hierarchical": 1.0730221002924991,
+    "f_null_block_bootstrap": 1.6696140513695465,
+    "null_tail_outlier_rate_3sigma": 0.0075,
+    "null_sigma_conclusion": "null_sigma_model_adequate_after_component_scaling"
+  },
+  "hidden_injection": {
+    "realistic_candidate_rate": 0.7625,
+    "realistic_false_positive_rate": 0.0,
+    "coverage_95_realistic_calibrated": 0.75,
+    "hidden_identifiability_after_lambda_pol_model": 1.0,
+    "hidden_identifiability_after_pol_model": 1.0,
+    "hidden_identifiability_after_sagnac_model": 1.0,
+    "hidden_identifiability_after_pol_null_decomposition": 1.0
+  },
+  "line_conclusions": {
+    "A_lambda_polarization": "stage_converged_no_current_evidence_for_large_lambda_pol_overdispersion",
+    "B_null_sigma": "stage_converged_early_large_f_null_due_to_null_diagnostic_sigma_underestimation_final_coverage_block_bootstrap_dominated",
+    "C_calibration_governance": "complete_for_simulation_prototype_stage"
+  }
+}
