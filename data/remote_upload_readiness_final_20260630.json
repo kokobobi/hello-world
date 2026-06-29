@@ -1,0 +1,45 @@
+{
+  "bundle_clone_clean": true,
+  "bundle_clone_head": "66694666bb0b9f13aa7dca2ad62cba8fe36ad643",
+  "bundle_clone_path": "<project-root>/generated/verify_publication_bundle_20260630",
+  "bundle_clone_tags_at_head": [
+    "local-publication-20260630"
+  ],
+  "bundle_clone_verified": true,
+  "bundle_path": "<project-root>/publication/a2t-null-test-report-local-publication-20260630.bundle",
+  "bundle_sha256": "375a97bc4fcf3930d8f1505f5388de71d21d44ee4c26c5c86afd2a9bb3b6ac4c",
+  "bundle_size_bytes": 12723301,
+  "h1_handoff_checklist": "<project-root>/publication/a2t-null-test-report/docs/A_VERSION_A2T_REAL_H1_EXPERIMENT_HANDOFF_CHECKLIST.md",
+  "h1_request_package_builder": "<project-root>/scripts/a2t_prepare_h1_request_package.py",
+  "h1_request_package_command": "python3 scripts/a2t_prepare_h1_request_package.py --out-dir generated/h1_real_request_package_20260630",
+  "head_bundle_match": true,
+  "known_github_owner": "kokobobi",
+  "local_branch": "main",
+  "local_head": "66694666bb0b9f13aa7dca2ad62cba8fe36ad643",
+  "local_publication_repo": "<project-root>/publication/a2t-null-test-report",
+  "local_repo_clean": true,
+  "local_tag": "local-publication-20260630",
+  "notes": [
+    "This final manifest is outside the publication git repository to avoid self-referential HEAD drift.",
+    "The bundle has been regenerated after the latest local publication commit and verified by cloning.",
+    "Remote upload has not been attempted because the target repository_full_name has not been confirmed.",
+    "Workstream 7 remains H0/H1-handoff-ready only; real apparatus data are still required."
+  ],
+  "public_export_note": "Absolute local workspace paths were redacted to <project-root>; the unredacted files remain local verification artifacts.",
+  "push_helper": "<project-root>/scripts/a2t_push_publication_to_github.sh",
+  "remote_handoff_checklist": "<project-root>/publication/a2t-null-test-report/docs/A_VERSION_A2T_REMOTE_PUBLICATION_HANDOFF_CHECKLIST.md",
+  "remote_upload_status": "not_started_missing_repository_full_name",
+  "remote_verifier": "<project-root>/scripts/a2t_verify_remote_publication.py",
+  "required_user_input": "target repository full name, for example kokobobi/a2t-null-test-report",
+  "safe_push_command_template": "bash scripts/a2t_push_publication_to_github.sh git@github.com:kokobobi/<repo>.git",
+  "safe_verify_command_template": "python3 scripts/a2t_verify_remote_publication.py --repository-full-name kokobobi/<repo> --out generated/remote_publication_verification_20260630.json",
+  "schema": "a2t_remote_upload_readiness_final_v1",
+  "seven_item_goal_audit_command": "python3 scripts/a2t_audit_seven_item_goal.py --out generated/seven_item_goal_audit_20260630.json",
+  "seven_item_goal_audit_runner_doc": "<project-root>/publication/a2t-null-test-report/docs/A_VERSION_A2T_SEVEN_ITEM_GOAL_AUDIT_RUNNER.md",
+  "seven_item_goal_auditor": "<project-root>/scripts/a2t_audit_seven_item_goal.py",
+  "tag_points_to_head": true,
+  "tags_at_head": [
+    "local-publication-20260630"
+  ],
+  "timestamp_utc": "2026-06-29T16:48:14Z"
+}
