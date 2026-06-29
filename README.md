@@ -47,6 +47,7 @@ This GitHub repository has connector-updated status files, but it is **not yet v
 
 - [data/seven_item_goal_audit_20260630.json](data/seven_item_goal_audit_20260630.json)
 - [data/remote_upload_readiness_final_20260630.json](data/remote_upload_readiness_final_20260630.json)
+- [data/remote_publication_verification_hello_world_20260630.json](data/remote_publication_verification_hello_world_20260630.json)
 - [docs/A_VERSION_A2T_SEVEN_ITEM_GOAL_AUDIT_RUNNER.md](docs/A_VERSION_A2T_SEVEN_ITEM_GOAL_AUDIT_RUNNER.md)
 - [docs/A_VERSION_A2T_REMOTE_PUBLICATION_HANDOFF_CHECKLIST.md](docs/A_VERSION_A2T_REMOTE_PUBLICATION_HANDOFF_CHECKLIST.md)
 - [docs/A_VERSION_A2T_REMOTE_PUBLICATION_FEASIBILITY_AND_POLICY.md](docs/A_VERSION_A2T_REMOTE_PUBLICATION_FEASIBILITY_AND_POLICY.md)
