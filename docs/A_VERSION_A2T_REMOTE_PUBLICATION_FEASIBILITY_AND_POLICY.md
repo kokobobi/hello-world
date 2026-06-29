@@ -132,6 +132,7 @@ Scripts:
 ```text
 scripts/a2t_prepare_content_publication_bundle.py
 scripts/a2t_verify_content_publication_bundle.py
+scripts/a2t_upload_content_publication_to_github.py
 ```
 
 Generated local bundle-publication package:
@@ -184,6 +185,31 @@ chunk files = generated locally
 local verifier = pass
 remote chunk upload = not done
 remote content verifier = not run
+```
+
+Upload dry-run:
+
+```text
+generated/content_publication_github_upload_dry_run_20260630.json
+file_count = 20
+total_bytes = 16975711
+requires token env = GITHUB_TOKEN
+```
+
+If a GitHub token is available, the upload command is:
+
+```text
+GITHUB_TOKEN=<token> python3 scripts/a2t_upload_content_publication_to_github.py \
+  --repository-full-name kokobobi/hello-world
+```
+
+The dry-run generated the remote verification template:
+
+```text
+python3 scripts/a2t_verify_content_publication_bundle.py \
+  --manifest https://raw.githubusercontent.com/kokobobi/hello-world/main/data/content_publication_bundle_20260630/a2t_content_publication_bundle_manifest_20260630.json \
+  --chunks-root https://raw.githubusercontent.com/kokobobi/hello-world/main/data/content_publication_bundle_20260630 \
+  --verify-git-bundle
 ```
 
 3. Current handoff-only path:
