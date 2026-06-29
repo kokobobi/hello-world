@@ -1,0 +1,210 @@
+{
+  "audit_source": "<project-root>/publication/a2t-null-test-report/data/seven_item_completion_audit_20260630.json",
+  "claim_boundary": "Goal is complete only when all seven items are complete; current local simulation/publication readiness does not by itself prove GitHub remote publication or H1 hardware readiness.",
+  "completed_item_count": 5,
+  "final_manifest": "<project-root>/generated/remote_upload_readiness_final_20260630.json",
+  "goal_complete": false,
+  "items": {
+    "1": {
+      "complete": true,
+      "evidence": {
+        "all_present": true,
+        "rows": [
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/paper/A2T_Null_Test_Report.md"
+          },
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/docs/A_VERSION_A2T_MODEL_SEMANTICS_AND_SUBCLASSES.md"
+          }
+        ]
+      },
+      "status": "completed_locally",
+      "status_ok": true,
+      "workstream": "A2T model narrowing and paper report"
+    },
+    "2": {
+      "complete": true,
+      "evidence": {
+        "all_present": true,
+        "rows": [
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/docs/A_VERSION_A2T_RUN_POLICY.md"
+          },
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/data/FULL_DATA_CHECKSUMS.txt"
+          },
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/paper/ARTIFACTS.md"
+          },
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/data/reviewer_response_status.json"
+          }
+        ]
+      },
+      "status": "completed_locally",
+      "status_ok": true,
+      "workstream": "Simulation pipeline governance"
+    },
+    "3": {
+      "complete": true,
+      "evidence": {
+        "all_present": true,
+        "rows": [
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/data/focused_composite_env_guard_full_profile_5seed_20260629_summary.json"
+          },
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/data/focused_composite_env_guard_freeze_manifest.json"
+          }
+        ]
+      },
+      "status": "completed_pass",
+      "status_ok": true,
+      "workstream": "Focused composite environment guard milestone"
+    },
+    "4": {
+      "complete": true,
+      "evidence": {
+        "all_present": true,
+        "rows": [
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/docs/A_VERSION_A2T_FOCUSED_COMPOSITE_ENV_GUARD_IMPLEMENTATION_REVIEW.md"
+          }
+        ]
+      },
+      "status": "completed_pass",
+      "status_ok": true,
+      "workstream": "Independent implementation review"
+    },
+    "5": {
+      "complete": true,
+      "evidence": {
+        "all_present": true,
+        "rows": [
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/data/independent_ood_review_protocol_scale_sequence_fix_20260629_summary.json"
+          },
+          {
+            "exists": true,
+            "path": "<project-root>/publication/a2t-null-test-report/data/benign_hidden_sequence_fix_diagnostic_20260629.json"
+          }
+        ]
+      },
+      "status": "completed_pass_after_sequence_fix",
+      "status_ok": true,
+      "workstream": "Independent OOD protocol"
+    },
+    "6": {
+      "complete": false,
+      "local_publication": {
+        "branch": "main",
+        "bundle_sha256": "375a97bc4fcf3930d8f1505f5388de71d21d44ee4c26c5c86afd2a9bb3b6ac4c",
+        "checks": {
+          "bundle_exists": true,
+          "bundle_hash_matches_final_manifest": true,
+          "final_manifest_bundle_clone_verified": true,
+          "final_manifest_head_bundle_match": true,
+          "git_branch_ok": true,
+          "git_head_ok": true,
+          "git_status_ok": true,
+          "head_matches_final_manifest": true,
+          "repo_clean": true,
+          "repo_exists": true,
+          "tag_points_to_head": true
+        },
+        "complete": true,
+        "errors": {
+          "branch": "",
+          "head": "",
+          "status": "",
+          "tag": ""
+        },
+        "head": "66694666bb0b9f13aa7dca2ad62cba8fe36ad643",
+        "status_short": "",
+        "tags_at_head": [
+          "local-publication-20260630"
+        ]
+      },
+      "local_publication_complete": true,
+      "remote_publication": {
+        "remote_verified": false,
+        "source": null,
+        "status": "not_checked_missing_remote_verification_report"
+      },
+      "remote_publication_complete": false,
+      "workstream": "Publication/GitHub handoff"
+    },
+    "7": {
+      "complete": false,
+      "discovery_claim_allowed": false,
+      "h1_ready": false,
+      "h1_validation": {
+        "command": "python3 <project-root>/scripts/a2t_validate_hardware_metadata.py --manifest publication/a2t-null-test-report/data/hardware_h1_real_intake_manifest_template.json --events publication/a2t-null-test-report/data/hardware_h1_real_event_template.csv --out <project-root>/generated/seven_item_h1_validation_20260630.json",
+        "discovery_claim_allowed": false,
+        "h1_ready": false,
+        "hardware_claim_allowed": false,
+        "report": {
+          "artifact_statuses": {
+            "blind": {"artifact_id": "TODO_REAL_BLIND_FREEZE_AND_CUSTODY_RECORD", "real_hardware": false, "status": "TODO_measured_hardware_pass_required"},
+            "laser_readout": {"artifact_id": "TODO_REAL_PHASE_GAIN_VISIBILITY_LINEARITY_ARTIFACT", "real_hardware": false, "status": "TODO_measured_hardware_pass_required"},
+            "mechanical_memory": {"artifact_id": "TODO_REAL_GEOMETRY_SWITCH_MEMORY_ARTIFACT", "real_hardware": false, "status": "TODO_measured_hardware_pass_required"},
+            "polarization": {"artifact_id": "TODO_REAL_JONES_MUELLER_STOKES_ARTIFACT", "real_hardware": false, "status": "TODO_measured_hardware_pass_required"},
+            "sagnac": {"artifact_id": "TODO_REAL_SAGNAC_AREA_VECTOR_ROTATION_INJECTION_ARTIFACT", "real_hardware": false, "status": "TODO_measured_hardware_pass_required"},
+            "thermal_environment": {"artifact_id": "TODO_REAL_THERMAL_ENVIRONMENT_ARTIFACT", "real_hardware": false, "status": "TODO_measured_hardware_pass_required"},
+            "wavelength_polarization": {"artifact_id": "TODO_REAL_WAVELENGTH_POLARIZATION_ARTIFACT", "real_hardware": false, "status": "TODO_measured_hardware_pass_required"}
+          },
+          "claim_boundary": "not H1-ready; exploratory or synthetic metadata only",
+          "csv_field_count": 54,
+          "discovery_claim_allowed": false,
+          "events_path": "publication/a2t-null-test-report/data/hardware_h1_real_event_template.csv",
+          "extra_fields": [],
+          "gate_status": {
+            "blind_analysis": "indeterminate_no_real_blind_freeze",
+            "calibration_artifacts": "indeterminate_placeholder_or_missing",
+            "metadata_completeness": "fail"
+          },
+          "h1_ready": false,
+          "hardware_claim_allowed": false,
+          "manifest_path": "publication/a2t-null-test-report/data/hardware_h1_real_intake_manifest_template.json",
+          "metadata_schema_version": "a2t_hardware_metadata_v0.1",
+          "missing_or_placeholder_artifacts": ["blind", "laser_readout", "mechanical_memory", "polarization", "sagnac", "thermal_environment", "wavelength_polarization"],
+          "missing_required_fields": [],
+          "required_event_field_count": 54,
+          "row_count": 0,
+          "schema_gate_policy": {
+            "if_missing_A_vec_or_orientation": "Sagnac gate indeterminate",
+            "if_missing_blind_freeze_hash": "exploratory only",
+            "if_missing_polarimeter_stokes": "polarization gate indeterminate",
+            "if_missing_switch_history_or_wait_time": "memory gate indeterminate",
+            "if_missing_temperature_gradient_or_dT_dt": "environment gate indeterminate"
+          },
+          "timestamp": "2026-06-30T00:48:14+08:00"
+        },
+        "report_path": "<project-root>/generated/seven_item_h1_validation_20260630.json",
+        "returncode": 0,
+        "stderr": "",
+        "stdout": "{\n  \"out\": \"<project-root>/generated/seven_item_h1_validation_20260630.json\",\n  \"h1_ready\": false\n}"
+      },
+      "hardware_claim_allowed": false,
+      "workstream": "Real H1 hardware transition"
+    }
+  },
+  "public_export_note": "Absolute local workspace paths were redacted to <project-root>; the unredacted files remain local verification artifacts.",
+  "remaining_requirements": [
+    "GitHub remote publication verification: provide repository_full_name and a passing remote verification report.",
+    "Real H1 hardware package: provide real apparatus events, measured calibration artifacts, and blind custody."
+  ],
+  "schema": "a2t_seven_item_goal_audit_v1",
+  "timestamp_utc": "2026-06-29T16:48:14+00:00",
+  "total_item_count": 7
+}
