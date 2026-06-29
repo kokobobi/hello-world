@@ -122,6 +122,41 @@ full remote git publication = not verified
 content-manifest remote publication = not implemented or verified
 ```
 
+## Local Content-Manifest Tooling Status
+
+The content-manifest fallback now has local tooling and a passing local
+reconstruction check.
+
+Scripts:
+
+```text
+scripts/a2t_prepare_content_publication_bundle.py
+scripts/a2t_verify_content_publication_bundle.py
+```
+
+Generated local bundle-publication package:
+
+```text
+generated/content_publication_bundle_20260630/
+generated/content_publication_bundle_20260630/a2t_content_publication_bundle_manifest_20260630.json
+generated/content_publication_bundle_20260630/content_publication_bundle_verification_20260630.json
+generated/content_publication_bundle_20260630/chunks/*.b64
+```
+
+Local content verification result:
+
+```text
+chunk_count = 17
+content_publication_verified = true
+reconstructed_bundle_sha256 = 375a97bc4fcf3930d8f1505f5388de71d21d44ee4c26c5c86afd2a9bb3b6ac4c
+git_bundle_verify = pass
+```
+
+This proves the bundle can be transported as a checksum-verified set of base64
+chunks. It still does not prove remote publication until the manifest and all
+chunks are uploaded to a stable remote location and verified from that remote
+location.
+
 ## Practical Next Options
 
 1. Full mirror path:
@@ -139,6 +174,16 @@ define a content-publication manifest
 upload split artifacts or selected release assets through an approved route
 write a new content verifier
 record remote commit/release URLs and checksum match
+```
+
+Current local status for this path:
+
+```text
+content manifest = generated
+chunk files = generated locally
+local verifier = pass
+remote chunk upload = not done
+remote content verifier = not run
 ```
 
 3. Current handoff-only path:
