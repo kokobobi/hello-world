@@ -1,0 +1,38 @@
+{
+  "branch": "main",
+  "branch_match": false,
+  "branch_ref": "refs/heads/main",
+  "branch_result": {
+    "command": "git ls-remote https://github.com/kokobobi/hello-world.git refs/heads/main",
+    "returncode": 0,
+    "rows": [
+      {
+        "ref": "refs/heads/main",
+        "sha": "7f5b86b76b6e05674eeb6e7fca759941cb8179e7"
+      }
+    ],
+    "stderr": "",
+    "stdout": "7f5b86b76b6e05674eeb6e7fca759941cb8179e7\trefs/heads/main"
+  },
+  "claim_boundary": "remote publication is complete only if branch and tag resolve to the expected manifest local_head",
+  "expected_bundle_sha256": "375a97bc4fcf3930d8f1505f5388de71d21d44ee4c26c5c86afd2a9bb3b6ac4c",
+  "expected_head": "66694666bb0b9f13aa7dca2ad62cba8fe36ad643",
+  "manifest_path": "generated/remote_upload_readiness_final_20260630.json",
+  "remote_accessible": true,
+  "remote_url": "https://github.com/kokobobi/hello-world.git",
+  "remote_verified": false,
+  "repository_full_name": "kokobobi/hello-world",
+  "schema": "a2t_remote_publication_verification_v1",
+  "status": "fail",
+  "tag": "local-publication-20260630",
+  "tag_match": false,
+  "tag_ref": "refs/tags/local-publication-20260630",
+  "tag_result": {
+    "command": "git ls-remote https://github.com/kokobobi/hello-world.git refs/tags/local-publication-20260630",
+    "returncode": 0,
+    "rows": [],
+    "stderr": "",
+    "stdout": ""
+  },
+  "timestamp_utc": "2026-06-29T17:04:38+00:00"
+}
