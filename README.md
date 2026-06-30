@@ -54,6 +54,10 @@ This GitHub repository has connector-updated status files, but it is **not yet v
 - [docs/A_VERSION_A2T_REMOTE_PUBLICATION_FEASIBILITY_AND_POLICY.md](docs/A_VERSION_A2T_REMOTE_PUBLICATION_FEASIBILITY_AND_POLICY.md)
 - [docs/A_VERSION_A2T_REAL_H1_EXPERIMENT_HANDOFF_CHECKLIST.md](docs/A_VERSION_A2T_REAL_H1_EXPERIMENT_HANDOFF_CHECKLIST.md)
 
+## Tracking Issue
+
+- [Issue #2: A2T remaining completion blockers](https://github.com/kokobobi/hello-world/issues/2)
+
 ## Completion Markers
 
 Workstream 6 is complete only after a passing remote verification report proves the GitHub branch/tag match the local final manifest.
