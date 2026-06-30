@@ -49,6 +49,7 @@ This GitHub repository has connector-updated status files, but it is **not yet v
 - [data/remote_upload_readiness_final_20260630.json](data/remote_upload_readiness_final_20260630.json)
 - [data/remote_publication_verification_hello_world_20260630.json](data/remote_publication_verification_hello_world_20260630.json)
 - [data/content_publication_status_20260630.json](data/content_publication_status_20260630.json)
+- [data/content_publication_github_upload_dry_run_20260630.json](data/content_publication_github_upload_dry_run_20260630.json)
 - [docs/A_VERSION_A2T_SEVEN_ITEM_GOAL_AUDIT_RUNNER.md](docs/A_VERSION_A2T_SEVEN_ITEM_GOAL_AUDIT_RUNNER.md)
 - [docs/A_VERSION_A2T_REMOTE_PUBLICATION_HANDOFF_CHECKLIST.md](docs/A_VERSION_A2T_REMOTE_PUBLICATION_HANDOFF_CHECKLIST.md)
 - [docs/A_VERSION_A2T_REMOTE_PUBLICATION_FEASIBILITY_AND_POLICY.md](docs/A_VERSION_A2T_REMOTE_PUBLICATION_FEASIBILITY_AND_POLICY.md)
