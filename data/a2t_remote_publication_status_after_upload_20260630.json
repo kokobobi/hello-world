@@ -1,5 +1,5 @@
 {
-  "claim_boundary": "Remote content-publication is verified as a transport of the signed local git bundle; it is not a full remote git mirror. Overall seven-item goal remains incomplete until real H1 hardware events, measured calibration artifacts, and blind custody are supplied and validated.",
+  "claim_boundary": "Remote content-publication is verified as a transport of the checksum-verified local git bundle; it is not a full remote git mirror. Overall seven-item goal remains incomplete until real H1 hardware events, measured calibration artifacts, and blind custody are supplied and validated.",
   "content_publication": {
     "all_chunks_ok": true,
     "bundle_sha256_ok": true,
