@@ -1,0 +1,182 @@
+{
+  "bundle_filename": "a2t-null-test-report-local-publication-20260630.bundle",
+  "bundle_sha256": "375a97bc4fcf3930d8f1505f5388de71d21d44ee4c26c5c86afd2a9bb3b6ac4c",
+  "bundle_size_bytes": 12723301,
+  "chunk_count": 17,
+  "chunk_dir": "generated/content_publication_bundle_20260630/chunks",
+  "chunk_encoding": "base64",
+  "chunks": [
+    {
+      "base64_sha256": "67ae2c2dd31416835c4828647089ac3a4e55fcd28a95645a437189d9ed9eec13",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0000.b64",
+      "index": 0,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0000.b64",
+      "raw_sha256": "388d8cdbade88b33e637b41cb4482f9272387587b177305cfd55940f2ecf12fa",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "2dfee7fe3c9fd227a6580f1c5c306ff5309da1d976abba1ffb08ac44399bd924",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0001.b64",
+      "index": 1,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0001.b64",
+      "raw_sha256": "c5b485c68609e5e771d6a4b4d3096004e91e4397e28f6a9761716a2f20cb4437",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "17522f694e7675a74b6be2372fb4d44f50e6e8f3155385d259c63b6c78e0a9d5",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0002.b64",
+      "index": 2,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0002.b64",
+      "raw_sha256": "48a42a97228b6410e3a79b28931ee16b1ff63fc9ecc71ae6245b50d359403ffc",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "4ac93c9e0ebcd3fbd0ced6709308161aad4f63fc004e318c3bc9e66972a9ae36",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0003.b64",
+      "index": 3,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0003.b64",
+      "raw_sha256": "a6b44005770ab9eabf01127ca9f2b417a238395c28c4467624251a4ae1d1a9a9",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "92e1b295c56e06e3733714a9438eb02e9c21e86a6bb76967b3e276953e5c42a9",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0004.b64",
+      "index": 4,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0004.b64",
+      "raw_sha256": "12580813715383f7874a8eb7be428ee9ec81691eec36eee521eda95668157457",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "73437c9f9cfc11cc57480a44a57bbc14c06bae65e0184f5f7257d54022be094a",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0005.b64",
+      "index": 5,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0005.b64",
+      "raw_sha256": "af3763544ba27b3c9c5becc1e12fe87c54e0bd3064027767618bacfe77fb2b24",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "8d2de3950e872277aaf39129e705a70fea6ed8cc80854ca7540a7ba123940ddd",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0006.b64",
+      "index": 6,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0006.b64",
+      "raw_sha256": "6dab71df6f369ea32ea1b6982671dc10210b9f6e8503ca57f96f32975a00fb35",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "b63fa795cbb5c571acce529e4f08bbe06f8fdd2f8565be4d46a34f687238586f",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0007.b64",
+      "index": 7,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0007.b64",
+      "raw_sha256": "ccee0548fd2ec30b9e6347f5410cdd565e0dfbc0d0efc5179186cc01c020d250",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "366c54446a4b959f652c1a2d7e226d461384f8298f897281ff17cd18dad1ac49",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0008.b64",
+      "index": 8,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0008.b64",
+      "raw_sha256": "3a1c36df6d4d30469013256b1eb9c05f96210a91795df11a72c185fb8c7bdde5",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "51aeb65e3387b0fa5e096e5037c0d0fdedcc0c61059e750604581b76c82a9669",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0009.b64",
+      "index": 9,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0009.b64",
+      "raw_sha256": "2234ea8c87079fdc5328960b3c33e08db4263e656617e579c4e3d21a81a3f22c",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "6d3f4d3a02f23fa9a13b9445747287f8faf7c0266a2537a03e2dc580d0bd09bc",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0010.b64",
+      "index": 10,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0010.b64",
+      "raw_sha256": "06b87a6c95442c61478f399b63e7a2a54afef289b759086e0e98e33435b21f74",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "3fd626b63d485083971e2a1a4b58c3a4e935e16bc2e64e1864708264690d9201",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0011.b64",
+      "index": 11,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0011.b64",
+      "raw_sha256": "959a8f42361c60b8348cb95024cde249f7bdbf35d2a04638416dbdda8d5c76ba",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "b53a9a91ad0b50eefd8ee0dda6cbb689bba411cd5b8efdfb2e7e008b57ffa646",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0012.b64",
+      "index": 12,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0012.b64",
+      "raw_sha256": "cda4f1d8574c4f2cd55acbfcfa83ce311c4c6958df044e8576b113dc3edf7baa",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "61f2dd3c21f18e22c1db3ccc00018b0af6c0a672518d0c4aefc9393e6f6a2dfd",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0013.b64",
+      "index": 13,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0013.b64",
+      "raw_sha256": "ba27009be059f2929029844f4d07cae6a7b4f4a02ef8e04b20b94b1ca66406ed",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "bc19c6d800c90219563debb5b032e7279a36ca5fb6e7dfb715789c960f1dcda0",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0014.b64",
+      "index": 14,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0014.b64",
+      "raw_sha256": "1200fa530d62b3d75bbe2b83f0d8d2d283c2133b9ebc592744ab26d9b0eed89c",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "5d8291741bd12cf9815ec88479101c8ce9a50ed3348a93579a017082c990b333",
+      "base64_size_bytes": 1048576,
+      "filename": "a2t-publication-bundle.part0015.b64",
+      "index": 15,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0015.b64",
+      "raw_sha256": "0f9d356fd0f9fe3a3045fd1ceef0c850eac7449a2baff989df8a60a415f1f584",
+      "raw_size_bytes": 786432
+    },
+    {
+      "base64_sha256": "626b59b3f95bc7236ae318f96c922407bb23637e86b8ab2b107dcebe7f7f1f78",
+      "base64_size_bytes": 187188,
+      "filename": "a2t-publication-bundle.part0016.b64",
+      "index": 16,
+      "path": "generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0016.b64",
+      "raw_sha256": "6c8b9dbe86f1d68a2db1845e98ceae0c42575376202dc30112ba9196fb357491",
+      "raw_size_bytes": 140389
+    }
+  ],
+  "claim_boundary": "This manifest enables content-publication verification. It does not prove remote publication until the manifest/chunks are uploaded and verified from the remote location.",
+  "local_publication_head": "66694666bb0b9f13aa7dca2ad62cba8fe36ad643",
+  "local_publication_repo": "publication/a2t-null-test-report",
+  "local_publication_tags_at_head": [
+    "local-publication-20260630"
+  ],
+  "raw_chunk_size_bytes": 786432,
+  "remote_completion_marker": {
+    "mode": "content-manifest-publication",
+    "requires": [
+      "manifest uploaded to stable remote location",
+      "all chunk files uploaded with exact paths or mapped URLs",
+      "verifier report with content_publication_verified=true",
+      "remote README states content-publication mode, not full git mirror"
+    ]
+  },
+  "schema": "a2t_content_publication_bundle_manifest_v1",
+  "source_bundle": "publication/a2t-null-test-report-local-publication-20260630.bundle",
+  "timestamp_utc": "2026-06-29T17:09:30+00:00"
+}
