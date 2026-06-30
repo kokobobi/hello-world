@@ -1,0 +1,156 @@
+{
+  "branch": "main",
+  "dry_run": true,
+  "file_count": 20,
+  "public_export_note": "Absolute local workspace paths were redacted to <project-root>; dry-run only, no remote chunks uploaded.",
+  "raw_base_url": "https://raw.githubusercontent.com/kokobobi/hello-world/main/data/content_publication_bundle_20260630/",
+  "remote_manifest_url": "https://raw.githubusercontent.com/kokobobi/hello-world/main/data/content_publication_bundle_20260630/a2t_content_publication_bundle_manifest_20260630.json",
+  "remote_prefix": "data/content_publication_bundle_20260630",
+  "remote_verifier_command": "python3 scripts/a2t_verify_content_publication_bundle.py --manifest https://raw.githubusercontent.com/kokobobi/hello-world/main/data/content_publication_bundle_20260630/a2t_content_publication_bundle_manifest_20260630.json --chunks-root https://raw.githubusercontent.com/kokobobi/hello-world/main/data/content_publication_bundle_20260630 --verify-git-bundle",
+  "repository_full_name": "kokobobi/hello-world",
+  "rows": [
+    {
+      "action": "create",
+      "bytes": 1000,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/README_CONTENT_PUBLICATION.md",
+      "remote_path": "data/content_publication_bundle_20260630/README_CONTENT_PUBLICATION.md"
+    },
+    {
+      "action": "create",
+      "bytes": 8826,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/a2t_content_publication_bundle_manifest_20260630.json",
+      "remote_path": "data/content_publication_bundle_20260630/a2t_content_publication_bundle_manifest_20260630.json"
+    },
+    {
+      "action": "create",
+      "bytes": 1464,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/content_publication_status_20260630.json",
+      "remote_path": "data/content_publication_bundle_20260630/content_publication_status_20260630.json"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0000.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0000.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0001.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0001.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0002.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0002.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0003.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0003.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0004.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0004.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0005.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0005.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0006.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0006.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0007.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0007.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0008.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0008.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0009.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0009.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0010.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0010.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0011.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0011.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0012.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0012.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0013.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0013.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0014.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0014.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 1048577,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0015.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0015.b64"
+    },
+    {
+      "action": "create",
+      "bytes": 187189,
+      "dry_run": true,
+      "local_path": "<project-root>/generated/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0016.b64",
+      "remote_path": "data/content_publication_bundle_20260630/chunks/a2t-publication-bundle.part0016.b64"
+    }
+  ],
+  "schema": "a2t_content_publication_github_upload_v1",
+  "timestamp_utc": "2026-06-29T17:15:05+00:00",
+  "total_bytes": 16975711
+}
